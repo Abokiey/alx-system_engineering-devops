@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m -d . .. */ LC_COLLATE=C sort -d echo
+(ls -d . .. */ | LC_COLLATE=C sort -d) | (read && echo)
