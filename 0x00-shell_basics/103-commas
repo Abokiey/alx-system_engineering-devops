@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -d . .. */ | LC_COLLATE=C sort -d) | (read && echo)
+ls -amvp
