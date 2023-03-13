@@ -1,0 +1,2 @@
+#!/bin/bash
+grep "^[:alspha:]" /etc/ssh/sshd_config
