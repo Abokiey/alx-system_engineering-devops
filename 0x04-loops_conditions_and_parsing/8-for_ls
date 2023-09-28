@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display content from the pwd
 
-for f in *;
+for f in *
 do
 	echo "$f" | cut -f 2- -d '_'
 done
