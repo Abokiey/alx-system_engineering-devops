@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #display best school ten times
 
-i = 1
 while ((i < 10))
 do
 	echo "Best School"
