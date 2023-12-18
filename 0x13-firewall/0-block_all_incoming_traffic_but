@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#have a firewall on my servers 
+
+sudo apt update
+sudo apt upgrade
+
+# installation
+sudo apt-get install ufw
+
+sudo default deny incoming
+sudo default allow outgoing
+
+
+# allow access
+sudo ufw allow 22/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+
+sudo ufw enable
+
