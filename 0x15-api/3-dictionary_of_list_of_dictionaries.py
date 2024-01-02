@@ -5,6 +5,7 @@
 import json
 import requests
 
+
 def main():
     """export data in the JSON format."""
     url = "https://jsonplaceholder.typicode.com/"
