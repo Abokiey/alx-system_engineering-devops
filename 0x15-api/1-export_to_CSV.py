@@ -6,7 +6,7 @@ import requests
 from sys import argv
 
 
-def main(id):
+def main():
     """check user details passed in argv"""
     url = "https://jsonplaceholder.typicode.com/todos"
     response = requests.get(url)
