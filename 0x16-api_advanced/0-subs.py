@@ -5,7 +5,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     """returns the number of subscribers"""
-    url = f'https://www.reddit.com/r/{subreddit}/about.json'
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
 
     user_agent = 'Mozilla/5.0'
     headers = {'User-Agent': user_agent}
