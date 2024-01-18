@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import re
-import requests
 """parse titles of all hot articles and print the
        sorted count
     """
-
+import re
+import requests
 
 def add_title(dictionary, hot_posts):
     """ Adds items into a list """
