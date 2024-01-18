@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""query an api and return a list containing the titles
+       of all the articles given
+"""
 
 import requests
 
