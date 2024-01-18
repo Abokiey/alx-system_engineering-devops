@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""prints top 10 posts for a given subbreddit"""
 
 import requests
 
